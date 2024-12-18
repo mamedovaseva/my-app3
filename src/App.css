@@ -1,0 +1,31 @@
+.link {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.link a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #333;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  width: 140px;
+  height: 60px;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+.link .active-link {
+  background-color: #9b59b6; /* Bənövşəyi rəng */
+  color: #fff;
+  border-color: #9b59b6;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
